@@ -1,0 +1,73 @@
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: vazirNormal;
+}
+
+.navbar{
+    background: linear-gradient(220.55deg, #DDE4FF 0%, #8DA2EE 100%);
+}
+.navbar .navbar-brand img{
+    width: 70px;
+    background-attachment: fixed;
+    margin-right: 50px;
+}
+/* carousel */
+.carousel .carousel-inner .carousel-item img{
+    height: 600px;
+}
+/* generalinformation */
+.general-information .h3::after{
+    content: '   ........';
+}
+.general-information .h3::before{
+    content: '........   ';
+}
+.general-information .title3{
+    font-weight: bold;
+}
+.general-information .row svg{
+    font-size: 50px;
+    color: rgb(0, 33, 105);
+}
+.general-information .row .item{
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 25%);
+    transition: 0.25s;
+    
+    margin: 15px;
+    padding: 20px;
+}
+.general-information .row .item:hover{
+    cursor: pointer;
+    box-shadow:  0 5px 20px 0 rgb(0 0 0 / 30%);
+}
+/* castomer */
+.castomer{
+    background-image: url("../image/JAVAN\ HD\ PIC\ \(58\).jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    margin-top: 80px;
+}
+.castomer .collapse1 .btn{
+    opacity: 0.6;
+}
+/* Tourist Attractions */
+.TouristAttractions .h3-2::after{
+    content: '   ........';
+}
+.TouristAttractions .h3-2::before{
+    content: '   ........';
+}
+/* map-afghanesten */
+.map-afghanesten{
+    margin-top: 150px;
+}
